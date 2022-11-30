@@ -1,0 +1,53 @@
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+  padding-bottom: 20px;
+  font-weight: bold;
+  color: #ff0000;
+  box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.08);
+  text-align: center;
+  font-size: 125px;
+  font-family: "Ma Shan Zheng", cursive;
+  font-family: "Noto Sans JP", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-family: "Silkscreen", cursive;
+  text-shadow: -5px -5px 0 #efe4d1, 1px -1px 0 #efe4d1, -1px 1px 0 #efe4d1,
+    1px 1px 0 #efe4d1;
+}
+
+body {
+  background-image: url("./img/master.jpeg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+.number {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #000000;
+  text-align: center;
+  font-size: 140px;
+  font-family: "Roboto", sans-serif;
+  font-family: "Silkscreen", cursive;
+  text-shadow: -5px -5px 0 #efe4d1, 1px -1px 0 #efe4d1, -1px 1px 0 #efe4d1,
+    1px 1px 0 #efe4d1;
+}
+
+.cat {
+  display: block;
+  margin: auto;
+  height: 800px;
+}
+
+.title {
+  display: inline-block;
+}
+
+.title2 {
+  display: inline-block;
+}
