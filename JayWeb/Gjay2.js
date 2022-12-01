@@ -49,25 +49,23 @@ jay.forEach(function (item) {
           list.play();
           item.classList.add("animate")
           item.classList.add("animate2");
-
-
-
-          list.addEventListener("ended", function () {
-            item.classList.remove("animate");
-            document.body.style.background = `url("./img/開場.gif")no-repeat`;
-            document.body.style.backgroundSize = "100%";
-            item.classList.remove("animate2");
-          });
         }
       } else {
-        // list.addEventListener("pause", function () {
-        //   document.body.style.background = `url("../img/開場.gif")no-repeat`;
-        //   document.body.style.backgroundSize = "100%";
-        // });
+
         list.pause();
         item.classList.remove("animate");
         item.classList.remove("animate2");
       }
+      list.addEventListener("ended", function () {
+        item.classList.remove("animate");
+        document.body.style.background = `url("./img/開場.gif")no-repeat`;
+        document.body.style.backgroundSize = "100%";
+        item.classList.remove("animate2");
+      });
+      list.addEventListener("pause", function () {
+        item.classList.remove("animate");
+        item.classList.remove("animate2");
+      });
     });
     isPlaying = !isPlaying;
   });
@@ -89,5 +87,6 @@ jay.forEach(function (item) {
     })
   })
 })
+
 
 
