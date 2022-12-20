@@ -16,7 +16,10 @@ let backgroundlist =
     { eight: "./img/稻香.gif" },
     { nine: "./img/跨時代.gif" },
     { ten: "./img/公主病.gif" },
-    { eleven: "./img/公公偏頭痛.gif" }
+    { eleven: "./img/公公偏頭痛.gif" },
+    { twelve: "./img/聽爸爸的話.gif" },
+    { thirteen: "./img/告白氣球.gif" },
+    { fourteen: "./img/紅顏如霜.gif" }
   ]
 
 
