@@ -3,3 +3,5 @@
 點擊圖示，播放音樂<br>
 使用 display:grid<br>
 小小鐵粉~<br>
+靜態網址<br>
+https://jie-hua-bao.github.io/side-project/JayWeb/index.html<>
