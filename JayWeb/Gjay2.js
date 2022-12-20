@@ -78,10 +78,8 @@ jay.forEach(function (item) {
   item.addEventListener('click', function (event) {
     backgroundlist.forEach(function (color) {
       if (item.classList[1] === Object.keys(color)[0]) {
-        document.body.style.background = `url("${Object.values(color)[0]}")no-repeat`;
+        document.body.style.background = `url("${Object.values(color)[0]}")repeat`;
         document.body.style.backgroundSize = "100%";
-
-
 
       }
     })
