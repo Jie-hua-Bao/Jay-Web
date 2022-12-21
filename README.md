@@ -4,4 +4,6 @@
 使用 display:grid<br>
 小小鐵粉~<br>
 靜態網址<br>
-https://jie-hua-bao.github.io/side-project/JayWeb/index.html<>
+https://jie-hua-bao.github.io/Jay-Web/index.html<br>
+目前尚未優化 RWD 手機版 桌機版 <br>
+文字部分尚未找到如何調整縮放比例 不爆版 <br>
